@@ -1,0 +1,65 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('../img/fond.jpg');
+    background-size: 100%
+}
+
+.flip-container{
+    width:100vw;
+}
+
+.flip-cards div{
+    width:18.5vw;
+    height:52vh;
+    position: absolute;
+    border-radius:15px;
+    backface-visibility: hidden;
+}
+
+.flip-cards{
+    width:18.5vw;
+    height:291px;
+    position:relative;
+    float:left;
+    margin-left:5px;
+    transition: all 1s ease;
+    transform-style: preserve-3d;
+}
+
+.flip-cards:hover{
+    transform: rotateY( 540deg );
+}
+
+.front-card{
+    z-index: 2;
+    background-image: url('../img/cardback.png');
+    background-size: 100%;
+}
+
+.reverse-card{
+    transform: rotateY( 180deg );
+    border-radius:15px;
+}
+
+#card1{
+    background-image: url('../img/brasgauche.png');
+}
+#card2{
+    background-image: url('../img/jambegauche.png');
+}
+#card3{
+    background-image: url('../img/tete.png');
+}
+#card4{
+    background-image: url('../img/jambedroite.png');
+}
+#card5{
+    background-image: url('../img/brasdroit.png');
+}
+
+#card1, #card2, #card3, #card4, #card5{
+    background-size: 100%
+}

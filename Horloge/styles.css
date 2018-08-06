@@ -1,0 +1,88 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+#contour{
+    height: 100vh;
+    width: 50vw;
+    background-image: url(horloge.jpg);
+    background-repeat: no-repeat;
+    background-size: 130% 100%;
+}
+
+@keyframes rotate {
+    100% {
+      transform: rotateZ(360deg);
+    }
+}
+
+#heure{
+    display: inline-block;
+    position: absolute;
+    background-color: black;
+    height: 7%;
+    width: 0.6%;
+    top: 43vh;
+    left: 30.15vw;
+    transform-origin: bottom;
+    animation: rotate 43200s infinite steps(60)
+}
+
+#minute{
+    display: inline-block;
+    position: absolute;
+    background-color: grey;
+    height: 14%;
+    width: 0.5%;
+    top: 36vh;
+    left: 30.17vw;
+    transform-origin: bottom;
+    animation: rotate 3600s infinite steps(60)
+}
+
+#seconde{
+    display: inline-block;
+    position: absolute;
+    background-color: goldenrod;
+    height: 5.7%;
+    width: 0.2%;
+    top: 51.1vh;
+    left: 33.8vw;
+    transform-origin: bottom;
+    animation: rotate 60s infinite linear
+}
+
+/*#centreH{
+    position: absolute;
+    height: 0.13%;
+    width: 50%;
+    top: 49.8%;
+    background-color: blue;
+}
+
+#centreV{
+    position: absolute;
+    height: 100%;
+    width: 0.08%;
+    left: 30.4%;
+    background-color: green;
+}
+
+#centreH2{
+    position: absolute;
+    height: 0.13%;
+    width: 50%;
+    top: 56.76%;
+    background-color: blue;
+}
+
+#centreV2{
+    position: absolute;
+    height: 100%;
+    width: 0.08%;
+    left: 33.85%;
+    background-color: green;
+}*/

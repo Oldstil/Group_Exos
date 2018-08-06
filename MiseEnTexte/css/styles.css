@@ -1,0 +1,86 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: url('img/cadre.jpg') rgb(46, 12, 12);
+    background-size: 100% 100%
+}
+
+h2
+{
+    color: black;
+    font-size: xx-large;
+    margin-top: -0%;
+    font-family: monospace;
+    text-decoration: underline white
+}
+
+#conteneur
+{
+    width: 89%;
+    height: 86.6%;
+    overflow: auto;
+    margin-left: 6%;
+    margin-right: 5%;
+    background: white;
+    background: url(img/parchemin.jpeg);
+    font-weight: bold
+}
+
+h1
+{
+    font-size: x-large;
+    text-decoration: underline
+}
+
+#acte
+{
+    font-size: xx-large;
+    text-decoration: overline underline purple
+}
+
+#horstexte
+{
+    font-size: larger;
+    color: grey;
+    text-align: right;
+    margin-bottom: -5%;
+    margin-top: -3%;
+    font-family: 'Aclonica';
+    font-weight: initial
+}
+
+div
+{  
+    align-items: center;
+    margin-bottom: 1%;
+    padding: 1%;
+    display: block
+}
+
+#scene1
+{
+    float: left;
+    
+    width: 48%;
+    font-size: large
+}
+
+#scene2
+{
+    float: right;
+    height: 100%;
+    width: 48%;
+    font-size: large
+}
+
+#scene3
+{
+    float: left;
+    height: 100%;
+    width: 50%;
+    font-size: large
+}

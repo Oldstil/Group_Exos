@@ -1,0 +1,52 @@
+html, body
+{
+    margin: auto;
+    margin-top: 5%;
+    height: 80%;
+    width: 80%;
+    color: white;
+    background-color: black;
+    font-family: 'Aclonica';
+    font-size: 2em;
+    text-align: center
+}
+
+table
+{
+    border-collapse: collapse;
+    height: 80%;
+    width: 100%;
+}
+
+td, thead, tfoot
+{
+    border: 5px solid black;
+}
+
+header
+{
+    background-color: rgb(46, 46, 46);
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
+
+thead
+{
+    background-color: rgb(66, 66, 66)
+}
+
+tfoot
+{
+    background-color: rgb(66, 66, 66)
+}
+
+tbody tr:nth-child(1)
+{
+    background-color: rgb(80, 80, 80)
+}
+
+tbody tr:nth-child(2)
+{
+    background-color: rgb(100, 100, 100)
+}
